@@ -123,13 +123,17 @@
           #separator
           #email_icon
           #box[#link("mailto:" + author.email)[#author.email]]
-          #separator
-          #github_icon
-          #box[#link("https://github.com/" + author.github)[#author.github]]
-          #separator
-          #linkedin_icon
-          #box[
-            #link("https://www.linkedin.com/in/" + author.linkedin)[#author.linkedin]
+          #if not author.github == "" [
+            #separator
+            #github_icon
+            #box[#link("https://github.com/" + author.github)[#author.github]]
+          ]
+          #if not author.linkedin == "" [
+            #separator
+            #linkedin_icon
+            #box[
+              #link("https://www.linkedin.com/in/" + author.linkedin)[#author.linkedin]
+            ]
           ]
         ]
       ]
@@ -245,7 +249,7 @@
 ) = {
   set block(above: 0.7em, below: 0.7em)
   set pad(top: 5pt)
-  
+
   pad[
     #justify_align[
       #resume_organization[#name]
@@ -257,6 +261,17 @@
     ][
       #resume_time[#start_time]
     ]
+  ]
+}
+
+#let personal_project_item_header_single(
+  name,
+) = {
+  set block(above: 0.7em, below: 0.7em)
+  set pad(top: 5pt)
+
+  pad[
+    #resume_organization[#name]
   ]
 }
 
