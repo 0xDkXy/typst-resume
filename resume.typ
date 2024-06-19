@@ -4,15 +4,15 @@
 
 #show: resume.with(
   author: (
-      firstname: "Aaaaaaa", 
-      lastname: "Aaa",
-      email: "aaaaaaaaaa@aaaaa.aaa", 
-      phone: "(+1) 0000000000",
-      github: "aaaaaaaaa",
-      linkedin: "aaaaaaaa",
+      firstname: "Haoyu", 
+      lastname: "Li",
+      email: "lowell@0xdkxy.com", 
+      phone: "(+86) 132-5731-0943",
+      github: "0xDkXy",
+      linkedin: "",
       positions: (
-        "Aaaaaaaa Aaaaaaaa",
-        "Aaaa Aaaaa Aaaaaaaaa",
+        "Chongqing",
+        "China",
       )
   ),
   date: today.display("[month repr:long] [day], [year]")
@@ -21,145 +21,111 @@
 #resume_section("Education")
 
 #education_item[
-  University of Aaaaaaaa Aaaaaaa-Aaaaaaaaa
+  Rutgers, The State University of New Jersey, New Brunswick
 ][
-  Master of Computer Science
+  Incoming CS Ph.D Student.  
 ][
-  #resume_gpa("4.00", "4.00")
+  //#resume_gpa("4.00", "4.00")
+  New Brunswick, NJ, USA
 ][
-  Aug. 0000 - Aug. 0000
+  Sept. 2024 - June. 2029(expect)
 ]
+Concentrate on Operating Systems and Computer Architecture.
 
 #education_item[
-  University of Aaaaaaaa-Aaaaaaa
+  Central South University
 ][
-  B.S. in Computer Science
+  B.Eng. in Computer Science
 ][
-  #resume_gpa("4.00", "4.00")
+  Changsha, HN, China
 ][
-  Aug. 0000 - Aug. 0000
+  Sept. 2019 - Jun. 2023
 ]
+
+#resume_section("Honor and award")
+
+#personal_project_item_header(
+  "The 2020 ICPC Asia Shenyang Regional COntest - Silve Medal",
+  "Shenyang, CN",
+  "The 2020 International Collegiate Programming Contest",
+  "July. 2021",
+)
+#personal_project_item_header(
+  "The 2021 ICPC Asia Shanghai Regional COntest - Bronze Medal",
+  "Shanghai, CN",
+  "The 2021 International Collegiate Programming Contest",
+  "Nov. 2021",
+)
+#personal_project_item_header(
+  "The 2021 ICPC Asia Shenyang Regional COntest - Bronze Medal",
+  "Shenyang, CN",
+  "The 2021 International Collegiate Programming Contest",
+  "Nov. 2021",
+)
+#personal_project_item_header(
+  "The 2021 CCPC National Invitational Contest (Hunan) - Silve Medal",
+  "Xiangtan, CN",
+  "The 2021 China Collegiate Programming Contest",
+  "June. 2021",
+)
+#personal_project_item_header(
+  "The 2021 Baidu Astar Programming Contest Rank 245/23051",
+  "Aug. 2021",
+  "",
+  "",
+)
 
 #resume_section("Experience")
 
+
 #work_experience_item_header(
-  "Aaaaaa Aaaaaaaa",
-  "Aaaaaa Aaaaa Aaaaa, AA",
-  "Software Engineer",
-  "Jul. 0000 - Jul. 0000",
+  "ByteDance - Data-arch-IES",
+  "Shanghai, CN",
+  "Software Engineer Intern",
+  "Feb. 2022 - Jul. 2022",
 )
 
 #resume_item[
-  - *#lorem(10)*. #lorem(20)
-  - #lorem(30)
-  - #lorem(40)
-  - #lorem(30)
+  - Processed real-time data from Douyin and TikTok utilizing the VCP
+    framework, an advanced and customized version of Apache Flink.
+  - Designed and implemented robust data pipelines to ensure efficient
+    and reliable data flow.
+  - Conducted performance tuning and optimization of workflows to enhance
+    processing speed and resource utilization.
+  - Scaled streaming solutions to accommodate increasing data volumes and
+    ensure seamless performance.
+  - Developed and integrated comprehensive performance monitoring tools
+    to track and analyze system metrics, ensuring optimal operation and
+    quick issue resolution.
 ]
 
 #work_experience_item_header(
-  "Aaaaaa Aaaaaaaa",
-  "Aaaaaa Aaaaa Aaaaa, AA",
-  "Software Engineer",
-  "Jul. 0000 - Jul. 0000",
+  "Tencent - IEG - start cloud game",
+  "Shenzhen, CN",
+  "Game Engineer Intern",
+  "Jul. 2022 - Aug. 2022",
 )
 
 #resume_item[
-  - *#lorem(10)*. #lorem(20)
-  - #lorem(30)
-  - #lorem(40)
-  - #lorem(30)
+  - Optimized computer graphics models to enhance the gaming experience.
+  - Refined and improved visual quality and performance.
+  - Implemented advanced rendering techniques and algorithms.
+  - Conducted testing and debugging to ensure smooth gameplay.
+  - Collaborated with the development team for seamless integration of
+    enhancements.
 ]
 
 #resume_section("Personal Project")
 
-#personal_project_item_header(
-  "Aaaaaaa Aaaa",
-  "Aaaaaa, AA",
-  "AAAAAAA",
-  "Feb. 0000",
+#personal_project_item_header_single(
+  "AOS",
 )
 
 #resume_item[
-  - #lorem(30)
+  - Developed a self-made OS kernel based on the i386 architecture.
+  - Supported multi-threading and loading user programs.
+  - Implemented a simple ext2-like file system.
+  - Included basic I/O and memory management.
+  - Created a simple shell for user interaction.
 ]
 
-#personal_project_item_header(
-  "Aaaaaaa Aaaa",
-  "Aaaaaa, AA",
-  "AAAAAAA",
-  "Feb. 0000",
-)
-
-#resume_item[
-  - #lorem(30)
-]
-
-#resume_section("Skills")
-
-#skill_item(
-  "Program Language",
-  (
-    strong[Aaaaa],
-    strong[Aaaaaa], 
-    strong[Aaaa], 
-    strong[Aaaaaa], 
-    strong[Aaaaaaa], 
-    strong[Aaaa],
-    "A/A++",
-    "Aaaa", 
-    "Aaaaaaa", 
-    "Aaaa", 
-    "Aaaaa",
-    "A/A++",
-    "Aaaa", 
-    "Aaaaaaa", 
-    "Aaaa", 
-    "Aaaaa"
-  )
-)
-
-#skill_item(
-  "Back-End",
-  (
-    strong[Aaaaa],
-    strong[Aaaaaa], 
-    strong[Aaaa], 
-    "Aaaaaa", 
-    "Aaaaaaa", 
-    "Aaaa",
-    "A/A++",
-    "Aaaa", 
-    "Aaaaaaa", 
-  )
-)
-
-#skill_item(
-  "Front-End",
-  (
-    strong[Aaaaa],
-    strong[Aaaaaa], 
-    strong[Aaaa], 
-    strong[Aaaaaa], 
-    strong[Aaaaaaa], 
-    "Aaaa",
-    "A/A++",
-    "Aaaa", 
-    "Aaaaaaa", 
-  )
-)
-
-#skill_item(
-  "DevOps",
-  (
-    strong[Aaaaa],
-    strong[Aaaaaa], 
-    strong[Aaaa], 
-    strong[Aaaaaa], 
-    strong[Aaaaaaa], 
-    strong[Aaaa],
-    "A/A++",
-    "Aaaa", 
-    "Aaaaaaa", 
-    "Aaaaaaa", 
-  )
-)
